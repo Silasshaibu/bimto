@@ -2,3 +2,85 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.container{
+   height:170px;
+   width: 90vw;
+   margin: 0 auto;
+}
+
+.header{
+color:white;
+background:red;
+
+}
+
+.top-header{
+    height:46px;
+}
+.bottom-header{
+    background: pink;
+    height:170px;
+}
+
+.hero-Section{
+    height:652px;
+    background: rgb(206, 152, 36);
+}
+
+section{
+    color:gray;
+}
+
+.section3{
+    height:1431px;
+    background:rgb(75, 72, 72);
+
+}
+
+.section4{
+    height:598px;
+    background:rgb(59, 59, 55);
+}
+
+.section5{
+    height:541px;
+    background:rgb(210, 212, 195);
+}
+
+.footer{
+background: white;
+}
+
+.footer-top{
+    height: 491px;
+    background:rgb(59, 59, 55);
+}
+
+.footer-bottom{
+    height: 80px;
+    background:rgb(210, 212, 195);
+}
+
+@media screen {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
