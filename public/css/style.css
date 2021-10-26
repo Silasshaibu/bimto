@@ -8,30 +8,58 @@ AUthor:Silas
 Author URI: https://silas.com
 */
 
+@font-face {
+    font-family: 'Proxima Nova Lt';
+    src: url('Fonts/ProximaNova-Semibold.eot');
+    src: url('Fonts/ProximaNova-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('Fonts/ProximaNova-Semibold.woff') format('woff'),
+        url('Fonts/ProximaNova-Semibold.ttf') format('truetype'),
+        url('Fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova Rg';
+    src: url('Fonts/ProximaNova-Regular.eot');
+    src: url('Fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('Fonts/ProximaNova-Regular.woff') format('woff'),
+        url('Fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('Fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Proxima Nova', Helvetica, sans-serif, Arial;
-
+    font-family: 'Proxima Nova Rg', 'Proxima Nova Lt', Helvetica, sans-serif, arial;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1rem;
     
 }
 
 .container{   
    width: 90vw;
    margin: 0 auto;
-   
 }
 
 .header{
-font-size:.8rem;
+font-size:.7rem;
 color:black;
 
 }
 
 ul {
     display: flex;
-    flex-direction:row;
-    
+    justify-content: center;
+    padding: 0;
 }
 
 li {
@@ -47,15 +75,11 @@ li {
 .bottom-header{
     display: flex;
     margin: 0 auto;
-    justify-content: space-around;
-  
 }
 .bottom-header-child{
-    font-size:1.2em;
-    flex:1; 
+    font-size:1.1em;     
     font-weight:700;
-    margin: 15px auto;
-    margin-right: 5%;
+    margin: 0 1em;
 }
 
 .bottom-header-child a, .top-header-child a{
@@ -67,24 +91,53 @@ li {
     color:rgb(36, 127, 219);
 }
 
-.bottom-header-child a.active, p a{
+.bottom-header-child a.active {
     padding:0px 1px 10px 1px;
     color:rgb(36, 127, 219); 
     border-bottom:5px solid rgb(36, 127, 219);
 }
+
+.loadmore{
+    margin:5% auto;
+    text-align:center;
+}
+.loadmore a {
+    font-size:.8em;
+    color:rgb(36, 127, 219);
+    border-bottom: 5px solid rgb(36, 127, 219);
+}
+
+.section4 {
+    color:white;
+}
+
+.section4 a{
+    color:white;
+    padding-bottom: 5px;
+    border-bottom:5px solid white;
+    font-size:.8em;
+}
+
 
 .hero-banner{
     display: flex;
     height: 440px;
     object-fit: cover;
     object-position: center;
-    
 }
 
+.hero-blend {
+    background-color:rgb(204, 105, 110);
+   
+}
+
+.hero-blend img{
+    mix-blend-mode:multiply ;
+}
 .hero-banner-note h1{
         padding: 2px;
         color:white;
-        font-size: 2em;
+        font-size: 3rem;
 }
 
 .hero-Section{
@@ -95,7 +148,7 @@ li {
 
 .hero-banner-note{
     position: relative;
-    margin-top: -20vh;
+    margin-top: -30vh;
     text-align: center;
     color: white;
     letter-spacing: .1em;
@@ -104,14 +157,15 @@ li {
 }
 
 .logo-header{
+    position: relative;
     display: flex;
     justify-content: center;
 }
 
 .logo{
-    max-width: 442px;
-    height:50px;
-    margin: -10px auto;
+    position: relative;
+    
+   
 }
 
 
@@ -121,8 +175,7 @@ li {
     margin: 0 auto;
     padding-left: 20%;
     padding-right: 20%;
-    background: #efefef;
-  
+    
 }
 
 .section3-div1{
@@ -137,14 +190,10 @@ li {
 
 .section5-div1{
     display: flex;
-    margin: 50px auto;
-    padding-left: 20%;
-    padding-right: 20%;
+    margin: 3% auto;
+    padding:0% 20%;
     justify-content: space-evenly;
-    height:280px;
-    
-    
-}
+  }
 
 .policy{
     flex:1;
@@ -153,6 +202,7 @@ li {
     margin: 0 auto; 
     margin-left: 30px;
     justify-content: center;
+    
 }
 
 
@@ -206,11 +256,13 @@ li {
 
 .topCategorySection{
     font-size:.8rem;
+    font-weight: 400;
 }
 
 .topCategorySection h1{
+    font-family: 'Proxima Nova Rg';
     color:black;
-    font-weight: 700px;
+    font-weight: 900;
     
 }
 /*
@@ -218,12 +270,17 @@ li {
     border:1px solid red;
 }
 */
+.Advert-with-IMage0 h1{
+    font-size:2rem;
+    font-weight: 400;
+}
+    
 
 .section4{
-    max-height:55.3vh;       
     background:#2f8fe5;
     margin: 0 auto;
-    padding: 10%;
+    padding: 5%;
+    padding-left: 20%;
     display:flex;
     justify-content: center;
     color:white;
@@ -231,17 +288,23 @@ li {
 }
 
 .Advert-with-Image0{    
-    flex:1;
-    display: flex;    
+    flex-basis:22%;
+    display: flex;   
     justify-content: center;
     align-items: left;
-    flex-direction: column;    
-    
-    
+    flex-direction: column;
 }
 
+.footer-bottom-child li{
+    margin:5% 0;
+    font-size: .9rem;
+}
+
+.footer-bottom h3{
+    font-size:.9em;
+}
 .Advert-with-Image1{  
-    flex:1; 
+    flex-basis:70%; 
 
 }
 .Advert-with-Image0 h3{
@@ -261,29 +324,29 @@ font-size: 66pt;
 }
 
 .section5{
-    height:50.09vh;
     background:rgb(210, 212, 195);
 }
 
 .footer{
-margin-top: 30px;
-
+margin: 0 auto;
 
 }
 
+
 .footer-top{
+    border-top: 1px solid #efefef;
     display:flex;
     margin: 0 auto;
     justify-content: left;
     flex-direction: row;    
-    padding:0% 20% 0% 20%;
+    padding:4% 20% 2% 20%;
     
 }
 
 .footer-top-child{
     flex:1;
     margin-right: 5%;
-    padding: auto;
+    
    
 }
 
@@ -295,11 +358,16 @@ margin-top: 30px;
     justify-content:left;
     display: flex;
     flex-direction: row;
-    padding:0% 20% 0% 20%;
+    padding:2% 20% 4% 20%;
+    
     
     
 }
 
+.seperator{
+    margin: 0% 20% ;
+    border-top:1px solid #efefef;
+}
 .footer-bottom-child{
     flex:1;
     margin-right: 5%;
@@ -312,8 +380,8 @@ margin-top: 30px;
 }
 
 .footer-floor{
-    margin-top: 5vh;
-    height: 3vh;
+   
+    height: 2vh;
     background: #efefef;
     display: flex;
     justify-content: space-between;
@@ -321,6 +389,95 @@ margin-top: 30px;
     
 
 }
+
+
+  .footer-top-child .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .footer-top-child .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .footer-top-child .fa-facebook {
+    
+    color: #3B5998;
+    
+  }
+  
+  .footer-top-child .fa-instagram {
+    
+    color: #125688;
+  }
+
+
+/*Search Field=============================================*/ 
+
+.top-searchDiv{
+    margin:5vh;
+    margin-top:-4vh;
+    
+}
+  .searchDiv{
+      display: flex;
+      margin: 3% auto;
+      justify-content: center;
+   }
+  
+  .top-searchDiv form input[type="text"]{
+      width: 512px;
+  }
+  .top-searchDiv form input[type="submit"]{
+    background: #ff5722;
+  }
+
+  .top-searchDiv input[type="submit"]:hover{
+    background: #2f8fe5;
+  }
+  input{
+    position:relative;
+    display: inline-block;
+    font-size:.8em;
+    box-sizing:border-box;
+    transition:.5s;
+  }
+  
+  input[type="text"]{
+    background:#fff;
+    font-family: 'Proxima Nova Rg';
+    width:340px;
+    height:50px;
+    border:2px solid #efefef;
+    outline:none;
+    padding: 0 25px;
+    border-radius:5px 0 0 5px;
+  } 
+  
+  input[type="submit"]{
+    position:relative;
+    font-family: 'Proxima Nova Lt';
+    Left:-5px;
+    width:150px;
+    height:50px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    background: #2f8fe5;
+    border-radius:0px 5px 5px 0;
+    color: #fff;
+  }
+  
+  input[type="submit"]:hover{
+    background: #ff5722;
+  }
+ /*Search Field=============================================*/
+ 
+ 
 
 @media screen and (min-width:1024px){
 
@@ -330,6 +487,13 @@ margin-top: 30px;
         padding-left: 19.2vw 14.81vh;
 
     }
+
+    .section3{
+        padding-left: 2%;
+        padding-right: 2%;
+        object-fit: cover;  
+        margin-top: -5vh;  
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1023px){
@@ -338,8 +502,8 @@ margin-top: 30px;
     .section3{
         padding-left: 2%;
         padding-right: 2%;
-        height:132.5vh;
-        object-fit: cover;    
+        object-fit: cover;  
+        margin-top: -10vh;  
     }
 
     
@@ -357,7 +521,7 @@ margin-top: 30px;
     .section3{
         padding-left: 2%;
         padding-right: 2%;
-        height:132.5vh;
+        margin-top: -10vh; 
         object-fit: cover;    
     }
 
@@ -374,11 +538,6 @@ margin-top: 30px;
 
    
 }
-
-
-
-
-
 
 
 
