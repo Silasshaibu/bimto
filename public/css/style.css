@@ -657,14 +657,26 @@ margin: 0 auto;
 
 .header-wrapper ul{
     background-color: #F6F7F8;
+    color:#2f8fe5;
     padding: 10px 0px;
-    font-size: .8rem;
+    font-size: .7rem;
+    font-weight: 700;
+}
+
+.header-wrapper li:last-child{
+    color:black;
 }
 
 .page-Title{
     color:  #2f8fe5;   
     text-align: center;
     margin: 0 0;
+}
+
+.header-wrapper ul span{
+    color:grey;
+    margin:0 10px;
+    
 }
 
 .pinfo{
