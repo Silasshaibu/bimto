@@ -282,6 +282,7 @@ nav ul .bottom-header-child{
     flex:1;
     display: flex;
     box-sizing: border-box;
+    border:1px solid red;
 }
 
 .product-container-layer1-left{
@@ -289,6 +290,7 @@ nav ul .bottom-header-child{
     display: flex;
     flex-direction: column;
     padding: 2%;
+    border:1px solid green;
 }
 
 .product-container-layer1-left-child{
@@ -299,6 +301,12 @@ nav ul .bottom-header-child{
 
 .product-container{
     font-size: .7rem;
+}
+
+img .mini-images{
+    width:10%;
+    background:grey;
+    height:200px;
 }
 
 .topCategorySection h1{
