@@ -67,6 +67,21 @@ li {
     
 }
 
+.header a{
+    text-decoration: none;
+    color: black;
+}
+
+.bottom-header-child a{font-size: .8em;
+
+}
+
+nav ul .bottom-header-child{
+    display: flex;
+}
+
+
+
 .top-header-child{    
     flex:1; 
     margin: 15px auto;    
@@ -101,7 +116,8 @@ li {
     margin:5% auto;
     text-align:center;
 }
-.loadmore a {
+.loadmore  a {
+    text-decoration: none;
     font-size:.8em;
     color:rgb(36, 127, 219);
     border-bottom: 5px solid rgb(36, 127, 219);
@@ -114,6 +130,7 @@ li {
 .section4 a{
     color:white;
     padding-bottom: 5px;
+    text-decoration: none;
     border-bottom:5px solid white;
     font-size:.8em;
 }
@@ -164,11 +181,7 @@ li {
 
 .logo{
     position: relative;
-    
-   
 }
-
-
 
 .section3-div{
     display: flex;
@@ -184,8 +197,7 @@ li {
     padding-left: 20%;
     padding-right: 20%;
     justify-content: space-evenly;
-    height:280px;
-    
+    margin-bottom: 5%;    
 }
 
 .section5-div1{
@@ -202,7 +214,6 @@ li {
     margin: 0 auto; 
     margin-left: 30px;
     justify-content: center;
-    
 }
 
 
@@ -251,7 +262,6 @@ li {
     height: 70px;
     object-fit: contain;
     object-position: center;
-   
 }
 
 .topCategorySection{
@@ -259,17 +269,51 @@ li {
     font-weight: 400;
 }
 
+.product-container{
+    display: flex;
+    margin: 5% auto;
+    justify-content: center;
+    flex-direction: column;
+    height:86.99vh;
+    width:40%;
+}
+
+.product-container-layer{
+    flex:1;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.product-container-layer1-left{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.product-container-layer1-left-child{
+    flex:1;
+    padding-left: 5%;
+    border-bottom:1px solid #968e8e;
+}
+
+.product-container{
+    font-size: .7rem;
+}
+
 .topCategorySection h1{
     font-family: 'Proxima Nova Rg';
     color:black;
     font-weight: 900;
+    margin:3% auto;
     
 }
-/*
-.trendingProduct:nth-child(odd){
-    border:1px solid red;
+
+.imageCoverCenter{
+    object-fit: cover;
+    object-position: center;
+
 }
-*/
 .Advert-with-IMage0 h1{
     font-size:2rem;
     font-weight: 400;
@@ -323,9 +367,6 @@ font-size: 66pt;
     width:75%;
 }
 
-.section5{
-    background:rgb(210, 212, 195);
-}
 
 .footer{
 margin: 0 auto;
@@ -346,8 +387,6 @@ margin: 0 auto;
 .footer-top-child{
     flex:1;
     margin-right: 5%;
-    
-   
 }
 
 .footer-top-child:last-child{
@@ -359,9 +398,6 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
     padding:2% 20% 4% 20%;
-    
-    
-    
 }
 
 .seperator{
@@ -379,39 +415,42 @@ margin: 0 auto;
     flex-direction: column;
 }
 
+.footer-bottom-child a{
+    text-decoration: none;
+    color: black;
+}
+
 .footer-floor{
-   
     height: 2vh;
-    background: #efefef;
     display: flex;
     justify-content: space-between;
     padding:1% 2% 1% 2%;
-    
-
 }
 
 
-  .footer-top-child .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
+ .fa {
+    padding: 0 20 20 0;
+    
+    font-size: 20px;
+    text-align: left;
+    width: 30px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 0px 0px 0px -10px;
+    
+    
   }
   
-  .footer-top-child .fa:hover {
+  .fa:hover {
       opacity: 0.7;
   }
   
-  .footer-top-child .fa-facebook {
-    
+  #facebook{
     color: #3B5998;
     
   }
   
-  .footer-top-child .fa-instagram {
-    
+  #instagram{
     color: #125688;
   }
 
@@ -500,8 +539,6 @@ margin: 0 auto;
    
 
     .section3{
-        padding-left: 2%;
-        padding-right: 2%;
         object-fit: cover;  
         margin-top: -10vh;  
     }
@@ -510,17 +547,12 @@ margin: 0 auto;
 }
 
 @media screen and (max-width:767px){
-
-    
     .hero-banner-note{        
         letter-spacing: .1em;
         font-size: 1rem;
-        
     }
 
     .section3{
-        padding-left: 2%;
-        padding-right: 2%;
         margin-top: -10vh; 
         object-fit: cover;    
     }
