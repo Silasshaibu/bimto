@@ -635,20 +635,15 @@ margin: 0 auto;
 
    
 }
-.container {
-    background-color: grey;
-    font-size: 15px;
-    padding: 1px;
-    width: 100%;
-    margin: 0 0;
-}
-.checkheader {
+
+.page-Title {
     color: blue;
     font-size:30px;
     font-weight: bold;
     text-align: center;
     margin: 0 0;
 }
+
 .pinfo{
     width: 40%;
     background-color: red;
@@ -660,17 +655,17 @@ margin: 0 auto;
     background-color: blue;
 
 }
-.container {
-    background-color: grey;
-    font-size: 15px;
-    padding: 1px;
-    width: 100%;
-    margin: 0 0;
+
+
+.header-wrapper ul{
+    background-color: #F6F7F8;
+    padding: 10px 0px;
+    font-size: .8rem;
 }
-.checkheader {
-    color: blue;
-    font-size:30px;
-    font-weight: bold;
+.checkheader{
+    color:  #2f8fe5;    
+    
+    
     text-align: center;
     margin: 0 0;
 }
