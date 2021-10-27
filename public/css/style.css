@@ -82,6 +82,7 @@ nav ul .bottom-header-child{
 
 
 
+
 .top-header-child{    
     flex:1; 
     margin: 15px auto;    
@@ -317,7 +318,7 @@ nav ul .bottom-header-child{
     font-size: .7rem;
 }
 
- .mini-images{
+.mini-images{
     width:100%;
     margin-right: 1%;
     border:2px solid grey;
@@ -326,6 +327,34 @@ nav ul .bottom-header-child{
 .mini-images:last-child{
     margin:0;
 }
+
+.reviewsection{
+background:#ff5722;
+padding: 2%;
+}
+
+.reviewsection nav{
+    
+    margin-left:0px;
+    display: block;
+    justify-content: left;
+}
+
+.reviewsection ul{
+    justify-content: flex-start;
+    border-bottom:1px solid white ;
+ }
+
+ .reviewsection .bottom-header-child .active{
+     color:grey;
+     border-bottom:black 2px solid;
+ }
+
+ .reviewsection .bottom-header-child a:hover{
+     color:grey;
+
+ }
+
 
 .topCategorySection h1{
     font-family: 'Proxima Nova Rg';
