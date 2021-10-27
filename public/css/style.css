@@ -272,10 +272,10 @@ nav ul .bottom-header-child{
 
 .product-container{
     display: flex;
-    margin: 5% auto;
+    margin: 5% 0% 0% 22%;
     justify-content: center;
     flex-direction: column;
-    height:86.99vh;
+    
     width:40%;
 }
 
@@ -283,7 +283,7 @@ nav ul .bottom-header-child{
     flex:1;
     display: flex;
     box-sizing: border-box;
-    border:1px solid red;
+    
 }
 
 .product-container-layer1-left{
@@ -359,6 +359,10 @@ padding: 2%;
      padding: 2.6%;
      border-top: #E5E8EA 2px solid;
      margin-top:-13px;
+ }
+
+ .review-note p{
+     line-height: 1.5em;
  }
 
 
