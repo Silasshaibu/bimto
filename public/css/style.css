@@ -329,7 +329,7 @@ nav ul .bottom-header-child{
 }
 
 .reviewsection{
-background:#ff5722;
+background:#FAFAFB;
 padding: 2%;
 }
 
@@ -342,17 +342,23 @@ padding: 2%;
 
 .reviewsection ul{
     justify-content: flex-start;
-    border-bottom:1px solid white ;
+   
  }
 
  .reviewsection .bottom-header-child .active{
-     color:grey;
-     border-bottom:black 2px solid;
+     color:rgb(36, 127, 219);
+     border-bottom:rgb(36, 127, 219) 2.5px solid;
  }
 
  .reviewsection .bottom-header-child a:hover{
-     color:grey;
+     color:rgb(36, 127, 219);
 
+ }
+
+ .review-note{
+     padding: 2.6%;
+     border-top: #E5E8EA 2px solid;
+     margin-top:-13px;
  }
 
 
