@@ -494,7 +494,8 @@ margin: 0 auto;
 }
 
 
- .fa {
+ 
+.fa {
     padding: 0 20 20 0;
     
     font-size: 20px;
@@ -519,6 +520,7 @@ margin: 0 auto;
   #instagram{
     color: #125688;
   }
+
 
 
 /*Search Field=============================================*/ 
