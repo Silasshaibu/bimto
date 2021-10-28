@@ -681,17 +681,44 @@ margin: 0 auto;
 
 .transform-div-column{
     display: flex;
+    flex-direction: column;
     margin:0 auto;
     justify-content: center;
-    background-color: aqua;
-    height: 2vh;
     width:60%;
+    border: 1px solid black;
+    font-size: .8em;
+}
+
+
+.div-col-split-to-row{
+    flex:1;
+    display: flex;
+    align-items: baseline;
+    border: 1px solid green;
+}
+
+.div-col-row-1{
+    flex:.6;
+    border: 1px solid black;
+    background:rgba(168, 123, 38, 0.555);
+}
+
+.div-col-row-1 p{
+    padding: 0px 0px 0px 10px;
+    margin-top: 15px;;
+    line-height: 0px;
+}
+
+p b{
+    font-size: 1.1em;
+    font-family: 'Proxima Nova Rg';
 }
 
 .pinfo{
     width: 40%;
     background-color: red;
 }
+
 .pinfoform{
     padding: 10px;
     width: 100%;
