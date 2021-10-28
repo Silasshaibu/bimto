@@ -679,6 +679,15 @@ margin: 0 auto;
     
 }
 
+.transform-div-column{
+    display: flex;
+    margin:0 auto;
+    justify-content: center;
+    background-color: aqua;
+    height: 2vh;
+    width:60%;
+}
+
 .pinfo{
     width: 40%;
     background-color: red;
