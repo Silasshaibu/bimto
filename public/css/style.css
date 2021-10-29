@@ -190,7 +190,7 @@ nav ul .bottom-header-child{
     margin: 0 auto;
     padding-left: 20%;
     padding-right: 20%;
-    
+   
 }
 
 .section3-div1{
@@ -222,6 +222,7 @@ nav ul .bottom-header-child{
 .trendingProduct{
     flex:1;
     z-index:0;
+    display: none;
 }
 
 
@@ -824,6 +825,7 @@ p b{
 .sm{
     border: 1px solid blue;
     padding: 20px;
+    border-radius:5px 5px;
 }
 .col{
     flex:1;
@@ -848,6 +850,70 @@ p b{
 }
 #mySlides {display: none;}
 
+#mySlides img {
+    vertical-align: middle;
+  }
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    width: auto;
+    padding-top: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 5px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+ 
+  /* Fading animation */
+  #fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+    to {
+      opacity: 1
+    }
+  }
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev,
+    .next,
+    .text {
+      font-size: 5px
+    }
+  }
+
 .container{
     font-size: 15px;
 }
@@ -860,11 +926,12 @@ p b{
     margin: 5px
 }
 
-
-
-
-
-
+.section3-div i{
+    margin: 13% 0 0 0%;
+    font-size: 25px;
+    border: 2px solid orangered;
+    padding: 0;
+}
 
 
 

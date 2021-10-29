@@ -1,17 +1,34 @@
 var slideIndex = 0;
 showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsById("mySlides");
-
-  console.log(slides)
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+function plusSlides(n) {
+  console.log(slideIndex)
+  if(slideIndex <= 3 && n < 0){
+    slideIndex -= n* 2
+    console.log('mmmm')
+  }else{
+    slideIndex += n
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  
-  slides[slideIndex-1].style.display = "block";  
-   setTimeout(showSlides, 3000);
+
+ console.log(slideIndex)
 }
+      
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("trendingProduct");
+        console.log(slides)
+        for(i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex ++;
+        if(slideIndex >= slides.length) {
+          slideIndex = 1
+        }
+        slides[slideIndex - 1].style.display = "block";
+        slides[slideIndex].style.display = "block";
+        if(slideIndex < slides.length){
+          slides[slideIndex + 1].style.display = "block";}else{
+          slides[slideIndex - slides.length].style.display = "block";
+        }
+        setTimeout(showSlides, 1500);
+       slideIndex+=2
+      }
