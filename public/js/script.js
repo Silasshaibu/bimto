@@ -1,18 +1,16 @@
 var slideIndex = 0;
 showSlides();
 function plusSlides(n) {
-  console.log(slideIndex)
   if(slideIndex <= 3 && n < 0){
     slideIndex -= n* 2
-    console.log('mmmm')
-  }else{
+    showSlides(slideIndex)
+    }else{
     slideIndex += n
+    showSlides(slideIndex)
   }
-
- console.log(slideIndex)
 }
       
-      function showSlides() {
+      function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("trendingProduct");
         console.log(slides)
@@ -29,6 +27,5 @@ function plusSlides(n) {
           slides[slideIndex + 1].style.display = "block";}else{
           slides[slideIndex - slides.length].style.display = "block";
         }
-        setTimeout(showSlides, 1500);
        slideIndex+=2
       }
