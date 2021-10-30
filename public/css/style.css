@@ -640,13 +640,7 @@ margin: 0 auto;
    
 }
 
-.page-Title {
-    color: blue;
-    font-size:30px;
-    font-weight: bold;
-    text-align: center;
-    margin: 0 0;
-}
+
 
 .header-wrapper ul{
     background-color: #F6F7F8;
@@ -663,6 +657,7 @@ margin: 0 auto;
 .page-Title{
     color:  #2f8fe5;   
     text-align: center;
+    font-size:3rem;
     margin: 0 0;
 }
 
@@ -943,8 +938,78 @@ p b{
 
 
 
+/*NEW STYLE FOR CHECK OUT PAGE */
 
+.disFlexCol{
+    display:flex;
+    width: 60%;
+    flex-direction:column;
+    margin:0 auto;
+    min-height: 40%;
+}
 
+.disFlexCol > div{
+    flex:1;
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+}
 
+.disFlexCol > div > div{
+    flex:1;
+    background: greenyellow;
+    border: 1px solid green;
+}
 
+.disFlexCol > div .leftCol{
+    flex:.5;
+    background:brown;
+    
+}
+
+.disFlexCol > div .rightCol{    
+    background:orange;
+    display:flex;
+    flex-direction: column;
+}
+
+.disFlexCol > div .rightCol > div{
+    background:cyan;
+    border: 1px solid black;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.disFlexCol > div .rightCol > div > div{
+    flex:1;
+    background:red;
+    border:1px solid black;
+    margin-right:5%;
+}
+
+.disFlexCol .MYD{
+    background: green;
+    display:flex;
+    flex-direction: row;
+}
+
+.disFlexCol .MYD > div{
+    flex:1;
+    background:green;
+    margin-right:5%;
+    border:1px solid orange;
+}
+
+.disFlexCol .MYD > div{
+    margin-right:5%;
+    background: yellow;
+}
+
+.disFlexCol .MYD :last-child{
+    margin-left:5%;
+    margin-right:0%;
+    background: yellow;
+}
 
