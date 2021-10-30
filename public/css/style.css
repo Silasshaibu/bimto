@@ -556,14 +556,6 @@ margin: 0 auto;
     transition:.5s;
   }
   
-  div > .rightCol input[type="text"]{
-        height: 40px;
-        width:100%;
-        border-radius: 2px;
-        padding:10px;
-        margin:5px 0px;
-      }
-    
   input[type="text"]{
     background:#fff;
     font-family: 'Proxima Nova Rg';
@@ -649,7 +641,13 @@ margin: 0 auto;
    
 }
 
-
+.page-Title {
+    color: blue;
+    font-size:30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0;
+}
 
 .header-wrapper ul{
     background-color: #F6F7F8;
@@ -666,7 +664,6 @@ margin: 0 auto;
 .page-Title{
     color:  #2f8fe5;   
     text-align: center;
-    font-size:3rem;
     margin: 0 0;
 }
 
@@ -701,7 +698,7 @@ margin: 0 auto;
     flex:1;
     display: flex;
     align-items: center;
-    
+    border: 1px solid green;
 }
 
 .div-col-split-to-row4_1{
@@ -709,7 +706,7 @@ margin: 0 auto;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    
+    border: 1px solid green;
 }
 
 .div-col-split-to-row4_1-child{
@@ -950,106 +947,8 @@ p b{
 
 
 
-/*NEW STYLE FOR CHECK OUT PAGE */
 
-.disFlexCol{
-    display:flex;
-    width: 52%;
-    flex-direction:column;
-    margin:0 auto;
-}
 
-.disFlexCol > div{
-    flex:1;
-    border:1px solid black;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-
-.disFlexCol > div .leftCol p{
-    margin:0;
-    padding-left:1%;
-}
-
-.disFlexCol > div .leftCol h3{
-    margin:0;
-    padding-left:1%;
-    font-size:1.5rem;
-}
-
-.disFlexCol > div .rightCol p{
-    font-size: .7rem;
-    margin:1%;
-}
-
-.disFlexCol > div > div{
-    flex:1;
-    
-}
-
-.disFlexCol > div .leftCol{
-    flex:.5;
-}
-
-.disFlexCol > div .rightCol{  
-    display:flex;
-    flex-direction: column;
-}
-
-.disFlexCol > div .rightCol > div{
-    background:cyan;
-    border: 1px solid black;
-    flex:1;
-    display: flex;
-    flex-direction: row;
-}
-
-.disFlexCol > div .rightCol > div > div{
-    flex:1;
-    background:red;
-    min-height:50%;
-    border:1px solid black;
-    margin-right:5%;
-}
-
-.disFlexCol .MYD{
-    display:flex;
-    flex-direction: row;
-}
-
-.disFlexCol .MYD > div{
-    flex:1;
-    margin-right:5%;
-    border:1px solid orange;
-}
-
-.disFlexCol .MYD > div{
-    margin-right:5%;
-    background: yellow;
-}
-
-.disFlexCol .MYD :last-child{
-    margin-left:5%;
-    margin-right:0%;
-    background: yellow;
-}
-
-.button{
-    color:white;
-    text-align:center;
-    margin: 0 auto;
-    width:100%;
-    padding:10px 10px;
-    border-radius:4px;
-    background-color:#33A0FF;
-    cursor: pointer;
-}
-
-.button:hover{
-    background: #1682e0;
-    transition: .9;
-}
 
 
 
