@@ -1,15 +1,11 @@
 var slideIndex = 0;
 showSlides();
 function plusSlides(n) {
-  console.log(slideIndex)
   if(slideIndex <= 3 && n < 0){
     slideIndex -= n* 2
-    console.log('mmmm')
-  }else{
+    }else{
     slideIndex += n
   }
-
- console.log(slideIndex)
 }
       
       function showSlides() {
