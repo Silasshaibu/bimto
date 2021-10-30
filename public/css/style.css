@@ -692,6 +692,8 @@ margin: 0 auto;
     margin: 0
 }
 
+
+
 .div-col-split-to-row4{
     flex:1;
     display: flex;
@@ -765,7 +767,7 @@ margin: 0 auto;
 }
 
 .div-col-row-1 p{
-    
+    font-size:.9rem;
     padding: 0px 0px 0px 10px;
     margin-top: 15px;;
     line-height: 0px;
@@ -801,11 +803,11 @@ p b{
 }
 
 .pinfoform input[type="text"]{
-    width:240px;
-    font-size: 13px;
+    
+    font-size:.8rem;
     position: initial;
     border:2px solid brown;
-    border-radius:5px 5px;
+    border-radius:2px;
 }
 .pinfoform label{
     border: 1px solid red;
@@ -813,7 +815,6 @@ p b{
 .row{
     flex:1;
     display: flex;
-    border: 1px solid green;
     justify-content: space-between;
     width: 100%;
     margin-top: 10px;
@@ -826,6 +827,9 @@ p b{
 .sm{
     border: 1px solid blue;
     padding: 20px;
+
+    border-radius: 2px;
+
     border-radius:5px 5px;
 }
 .col{
@@ -848,6 +852,7 @@ p b{
 }
 #h input[type="text"]{
     width:140px;
+   
 }
 #mySlides {display: none;}
 
