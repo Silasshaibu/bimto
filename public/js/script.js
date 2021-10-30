@@ -1,25 +1,22 @@
-var slideIndex = 0;
-showSlides();
+var slideIndex = 1;
+showSlides(slideIndex);
 function plusSlides(n) {
-  console.log(slideIndex)
-  if(slideIndex <= 3 && n < 0){
-    slideIndex -= n* 2
-    console.log('mmmm')
-  }else{
+  if(slideIndex < 3 && n < 0){
+    slideIndex = 19 + n
+    showSlides(slideIndex)
+    }else{
     slideIndex += n
+    showSlides(slideIndex)
   }
-
- console.log(slideIndex)
 }
       
-      function showSlides() {
+      function showSlides(n) {
         var i;
         var slides = document.getElementsByClassName("trendingProduct");
         console.log(slides)
         for(i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
-        slideIndex ++;
         if(slideIndex >= slides.length) {
           slideIndex = 1
         }
@@ -29,6 +26,4 @@ function plusSlides(n) {
           slides[slideIndex + 1].style.display = "block";}else{
           slides[slideIndex - slides.length].style.display = "block";
         }
-        setTimeout(showSlides, 1500);
-       slideIndex+=2
       }
