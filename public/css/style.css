@@ -556,6 +556,14 @@ margin: 0 auto;
     transition:.5s;
   }
   
+  div > .rightCol input[type="text"]{
+        height: 40px;
+        width:100%;
+        border-radius: 2px;
+        padding:10px;
+        margin:5px 0px;
+      }
+    
   input[type="text"]{
     background:#fff;
     font-family: 'Proxima Nova Rg';
@@ -693,7 +701,7 @@ margin: 0 auto;
     flex:1;
     display: flex;
     align-items: center;
-    border: 1px solid green;
+    
 }
 
 .div-col-split-to-row4_1{
@@ -701,7 +709,7 @@ margin: 0 auto;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    border: 1px solid green;
+    
 }
 
 .div-col-split-to-row4_1-child{
@@ -977,7 +985,7 @@ p b{
 
 .disFlexCol > div > div{
     flex:1;
-    border: 1px solid green;
+    
 }
 
 .disFlexCol > div .leftCol{
@@ -1006,14 +1014,12 @@ p b{
 }
 
 .disFlexCol .MYD{
-    background: green;
     display:flex;
     flex-direction: row;
 }
 
 .disFlexCol .MYD > div{
     flex:1;
-    background:green;
     margin-right:5%;
     border:1px solid orange;
 }
