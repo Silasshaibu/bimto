@@ -1,8 +1,8 @@
-var slideIndex = 0;
-showSlides();
+var slideIndex = 1;
+showSlides(slideIndex);
 function plusSlides(n) {
-  if(slideIndex <= 3 && n < 0){
-    slideIndex -= n* 2
+  if(slideIndex < 3 && n < 0){
+    slideIndex = 19 + n
     showSlides(slideIndex)
     }else{
     slideIndex += n
@@ -17,7 +17,6 @@ function plusSlides(n) {
         for(i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
-        slideIndex ++;
         if(slideIndex >= slides.length) {
           slideIndex = 1
         }
@@ -27,5 +26,4 @@ function plusSlides(n) {
           slides[slideIndex + 1].style.display = "block";}else{
           slides[slideIndex - slides.length].style.display = "block";
         }
-       slideIndex+=2
       }
