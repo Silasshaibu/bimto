@@ -946,10 +946,9 @@ p b{
 
 .disFlexCol{
     display:flex;
-    width: 60%;
+    width: 55%;
     flex-direction:column;
     margin:0 auto;
-    min-height: 40%;
 }
 
 .disFlexCol > div{
@@ -957,22 +956,30 @@ p b{
     border:1px solid black;
     display: flex;
     flex-direction: row;
+    align-items: baseline;
+}
+
+.disFlexCol > div .leftCol p{
+    margin:0;
+    padding-left:1%;
+}
+
+.disFlexCol > div .leftCol h3{
+    margin:0;
+    padding-left:1%;
+    font-size:1.1rem;
 }
 
 .disFlexCol > div > div{
     flex:1;
-    background: greenyellow;
     border: 1px solid green;
 }
 
 .disFlexCol > div .leftCol{
     flex:.5;
-    background:brown;
-    
 }
 
-.disFlexCol > div .rightCol{    
-    background:orange;
+.disFlexCol > div .rightCol{  
     display:flex;
     flex-direction: column;
 }
@@ -983,12 +990,12 @@ p b{
     flex:1;
     display: flex;
     flex-direction: row;
-    
 }
 
 .disFlexCol > div .rightCol > div > div{
     flex:1;
     background:red;
+    min-height:50%;
     border:1px solid black;
     margin-right:5%;
 }
