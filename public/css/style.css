@@ -300,7 +300,8 @@ nav ul .bottom-header-child{
 .product-container-layer1-left-child{
     flex:1;
     padding-left: 5%;
-    border-bottom:1px solid #968e8e;
+    border-bottom:1px solid #968e8e4f;
+    justify-content: center;
 }
 
 .product-container-layer2{
@@ -668,7 +669,7 @@ margin: 0 auto;
     background:white;
     flex: 1;
     padding: 0 .5em;
-    color:red;
+    color:black;
     cursor:pointer;
     font-size: 1em;
     font-family: inherit;
@@ -701,6 +702,13 @@ margin: 0 auto;
  .select:hover::after {
     color: #23b499;
  }
+
+div > .product-container-layer1-left-child .size{
+    display:flex;
+    flex-direction: row;   
+    padding-top: 15px;
+}
+
 
 
 
