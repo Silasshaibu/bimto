@@ -278,7 +278,7 @@ nav ul .bottom-header-child{
     margin: 5% 0% 0% 22%;
     justify-content: center;
     flex-direction: column;
-    width:40%;
+    width:45%;
 }
 
 .product-container-layer{
@@ -311,33 +311,30 @@ nav ul .bottom-header-child{
 
 .product-container-layer2-1{
     flex:1;
-    background: yellow; 
-    border: 1px solid blue; 
     display:flex;
+   
 }
 
 .product-container-layer2-1>div{
-    display:flex;
-    border:grey 1px solid;
+    display:flex;    
     flex-direction: column;
-    
     cursor: pointer;
+    margin:5px;
+    
 }
 .product-container{
     font-size: .7rem;
 }
 
 .incr-val-decr-btn{
-    background: orange;
+    background: #F6F7F8;
     border-radius: 2px;
     padding: 0 5px;
     
 }
 .love-box-btn{
-    background:red;
+    background:#33a0ff62;
     border-radius: 2px;
-   
-    
     cursor: pointer;
     margin-left: 10%;
 }
@@ -348,9 +345,11 @@ div>.incr-val-decr-btn span{
 }
 
 .add-to-cart-btn{
-    background:red;
-    padding: 1px 5px;
-    margin-left: 10%;
+    background:#33a0ff62;
+    font-weight: 400;
+    color:#33A0FF;
+    padding: 2px 5px;
+    margin-left: 20%;
     cursor: pointer;
     border-radius: 2px;
 }
@@ -372,25 +371,43 @@ div>.incr-val-decr-btn span{
 }
 
 .facebook-share-btn{
+    flex:.8;
     border-radius: 2px;
     background: #385C8E;
     color:white;
     text-align:center;
     margin:2px auto;
-    padding:2px 2px;
-    
+    margin-right:2%;
 }
 
 
+.facebook-share-btn:hover{
+    background:#2a466d;    
+}   
+
+.facebook-share-btn p img{
+    padding: 0 5px;
+}
+
+.twitter-share-btn p img{
+    padding: 0 5px;
+}
 
 .twitter-share-btn{
+    flex:.8;
     border-radius: 2px;
     background: #03A9F4;
     color:white;
     text-align:center;
     margin:2px auto;
-    padding:2px 2px;
-    
+}
+
+.twitter-share-btn:hover{
+    background:#0795d6;   
+} 
+
+.product-container-layer2-1 > div > p{
+    padding: 0px 10px;
 }
 
 .reviewsection{
@@ -643,7 +660,57 @@ margin: 0 auto;
   }
  /*Search Field=============================================*/
  
- 
+  /*Select Field=============================================*/
+
+
+
+  select {
+    background:white;
+    flex: 1;
+    padding: 0 .5em;
+    color:red;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: inherit;
+    
+ }
+ select::-ms-expand {
+    display: none;
+ }
+ .select {
+    position: relative;
+    display: flex;
+    width:8em;
+    height:3em;
+    line-height: 3;
+    background: grey;
+    overflow: hidden;
+    border-radius: .25em;
+ }
+ .select::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #fff;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #23b499;
+ }
+
+
+
+
+
+
+
+
+
+  /*Select Field=============================================*/
 
 @media screen and (min-width:1024px){
 
