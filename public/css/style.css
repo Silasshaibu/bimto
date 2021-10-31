@@ -278,7 +278,6 @@ nav ul .bottom-header-child{
     margin: 5% 0% 0% 22%;
     justify-content: center;
     flex-direction: column;
-    
     width:40%;
 }
 
@@ -286,7 +285,6 @@ nav ul .bottom-header-child{
     flex:1;
     display: flex;
     box-sizing: border-box;
-    
 }
 
 .product-container-layer1-left{
@@ -309,18 +307,52 @@ nav ul .bottom-header-child{
     flex:1;
     display: flex;
     flex-direction: column;
-    
 }
 
 .product-container-layer2-1{
     flex:1;
     background: yellow; 
     border: 1px solid blue; 
-    
+    display:flex;
 }
 
+.product-container-layer2-1>div{
+    display:flex;
+    border:grey 1px solid;
+    flex-direction: column;
+    
+    cursor: pointer;
+}
 .product-container{
     font-size: .7rem;
+}
+
+.incr-val-decr-btn{
+    background: orange;
+    border-radius: 2px;
+    padding: 0 5px;
+    
+}
+.love-box-btn{
+    background:red;
+    border-radius: 2px;
+   
+    
+    cursor: pointer;
+    margin-left: 10%;
+}
+
+div>.incr-val-decr-btn span{
+    cursor: pointer;
+    margin: auto 4px;
+}
+
+.add-to-cart-btn{
+    background:red;
+    padding: 1px 5px;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
 .mini-images{
@@ -339,13 +371,34 @@ nav ul .bottom-header-child{
     margin:0;
 }
 
+.facebook-share-btn{
+    border-radius: 2px;
+    background: #385C8E;
+    color:white;
+    text-align:center;
+    margin:2px auto;
+    padding:2px 2px;
+    
+}
+
+
+
+.twitter-share-btn{
+    border-radius: 2px;
+    background: #03A9F4;
+    color:white;
+    text-align:center;
+    margin:2px auto;
+    padding:2px 2px;
+    
+}
+
 .reviewsection{
 background:#FAFAFB;
 padding: 2%;
 }
 
 .reviewsection nav{
-    
     margin-left:0px;
     display: block;
     justify-content: left;
@@ -353,7 +406,6 @@ padding: 2%;
 
 .reviewsection ul{
     justify-content: flex-start;
-   
  }
 
  .reviewsection .bottom-header-child .active{
@@ -363,7 +415,6 @@ padding: 2%;
 
  .reviewsection .bottom-header-child a:hover{
      color:rgb(36, 127, 219);
-
  }
 
  .review-note{
@@ -382,13 +433,11 @@ padding: 2%;
     color:black;
     font-weight: 900;
     margin:3% auto;
-    
 }
 
 .imageCoverCenter{
     object-fit: cover;
     object-position: center;
-
 }
 .Advert-with-IMage0 h1{
     font-size:2rem;
@@ -404,7 +453,6 @@ padding: 2%;
     display:flex;
     justify-content: center;
     color:white;
-
 }
 
 .Advert-with-Image0{    
@@ -425,11 +473,9 @@ padding: 2%;
 }
 .Advert-with-Image1{  
     flex-basis:70%; 
-
 }
 .Advert-with-Image0 h3{
 font-size: 66pt;
-
 }
 
 .Advert-with-Image0:last-child(){
@@ -446,7 +492,6 @@ font-size: 66pt;
 
 .footer{
 margin: 0 auto;
-
 }
 
 
@@ -457,7 +502,6 @@ margin: 0 auto;
     justify-content: left;
     flex-direction: row;    
     padding:4% 20% 2% 20%;
-    
 }
 
 .footer-top-child{
@@ -507,15 +551,12 @@ margin: 0 auto;
  
 .fa {
     padding: 0 20 20 0;
-    
     font-size: 20px;
     text-align: left;
     width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 0px 0px 0px -10px;
-    
-    
   }
   
   .fa:hover {
