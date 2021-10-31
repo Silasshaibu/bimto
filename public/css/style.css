@@ -297,6 +297,8 @@ nav ul .bottom-header-child{
     border:1px solid green;
 }
 
+
+
 .product-container-layer1-left-child{
     flex:1;
     padding-left: 5%;
@@ -322,9 +324,15 @@ nav ul .bottom-header-child{
 }
 
 .mini-images{
-    width:100%;
+    width:20%;
     margin-right: 1%;
     border:2px solid grey;
+    cursor: pointer;
+}
+
+.selected-img{
+    border:2px solid black;
+    cursor: pointer;
 }
 
 .mini-images:last-child{
