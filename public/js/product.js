@@ -38,3 +38,20 @@ window.onload=function(){
     }
   
   }
+    document.getElementById("im1").onclick = function(){cl(1);}
+    document.getElementById("im2").onclick = function(){cl(2);}
+    document.getElementById("im3").onclick = function(){cl(3);}
+    document.getElementById("im4").onclick = function(){cl(4);}
+
+    function cl(k){
+        for(var i =1 ; i<5; i++){
+            if(i === k){
+                document.getElementById("im"+k).className= "selected-img mini-images imageCoverCenter";
+                document.getElementById("img"+k).style.display="block"
+            }else{
+                console.log(i)
+            document.getElementById("img"+i).style.display="none"
+            document.getElementById("im"+i).className= "mini-images imageCoverCenter";
+        }
+    }
+    }
