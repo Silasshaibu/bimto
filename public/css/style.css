@@ -1244,4 +1244,6 @@ p b{
       border-radius: 50%;
       background: #2196F3;
   }
-
+.color-pane{
+    margin-top: 10px;
+  }
