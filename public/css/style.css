@@ -288,13 +288,10 @@ nav ul .bottom-header-child{
 }
 .contan {
   overflow: hidden;
-  width:50%;
-display: block;
-transition: transform .4s;  
+  transition: transform .4s;  
   }
 .contan:hover{
     transform: scale(1.1);
-    transform-origin: 50% 50%;
   }
 
 .product-container-layer1-left{
