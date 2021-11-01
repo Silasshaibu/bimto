@@ -49,7 +49,6 @@ window.onload=function(){
                 document.getElementById("im"+k).className= "selected-img mini-images imageCoverCenter";
                 document.getElementById("img"+k).style.display="block"
             }else{
-                console.log(i)
             document.getElementById("img"+i).style.display="none"
             document.getElementById("im"+i).className= "mini-images imageCoverCenter";
         }
