@@ -286,6 +286,16 @@ nav ul .bottom-header-child{
     display: flex;
     box-sizing: border-box;
 }
+.contan {
+  overflow: hidden;
+  width:50%;
+display: block;
+transition: transform .4s;  
+  }
+.contan:hover{
+    transform: scale(1.1);
+    transform-origin: 50% 50%;
+  }
 
 .product-container-layer1-left{
     flex:1;
@@ -1166,3 +1176,8 @@ p b{
     background: #1682e0;
     transition: .9;
 }
+
+.mini-images:hover {
+    transform: scale(0.9);
+  }
+
