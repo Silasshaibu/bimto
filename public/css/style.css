@@ -1179,12 +1179,14 @@ p b{
   }
 
 .shipping_method img{
-    width:90px;
-    height:55px;
+    width:65px;
+    height:40px;
 }
 
 .shipping_method div{ 
     padding: 3px;
+    padding-left: 5px;
+    padding-top: 5px;
     border: 1px solid #2196F3;
     border-radius: 3px;
     margin-bottom:4px;
@@ -1202,11 +1204,11 @@ p b{
 }
 
 .checkmark {
-    margin-top: 18px;
-    margin-left: 50px;
+    margin-top: 10px;
+    margin-left: 70px;
     position: absolute;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     background-color:white ;
     border: 1px solid grey;
     border-radius: 50%;
@@ -1237,8 +1239,8 @@ p b{
   .content-Jus .checkmark:after {
        top: 1px;
       left: 1px;
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: #2196F3;
   }
