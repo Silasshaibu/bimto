@@ -804,7 +804,6 @@ div > .product-container-layer1-left-child .size{
 .header-wrapper ul span{
     color:grey;
     margin:0 10px;
-    
 }
 
 .transform-div-column{
@@ -817,7 +816,6 @@ div > .product-container-layer1-left-child .size{
     font-size: .8em;
 }
 
-
 .div-col-split-to-row{
     flex:1;
     display: flex;
@@ -826,13 +824,10 @@ div > .product-container-layer1-left-child .size{
     margin: 0
 }
 
-
-
 .div-col-split-to-row4{
     flex:1;
     display: flex;
     align-items: center;
-    
 }
 
 .div-col-split-to-row4_1{
@@ -840,12 +835,39 @@ div > .product-container-layer1-left-child .size{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    
+    border:1px solid black;
 }
 
 .div-col-split-to-row4_1-child{
     background:grey;
-    
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.div-col-split-to-row4_1-child:last-child{
+    flex-basis:15%
+}
+.flexdir-row{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexdir-row > div{
+    flex:1;
+    display: flex;
+    background:pink;
+    justify-content: space-between;
+}
+
+.flexdir-row>div>p{
+    flex:1;
+    border: 1px solid black;
+}
+
+.flexdir-row>div>p:nth-child(2){
+    text-align: right;
 }
 
 .seg1{
@@ -854,7 +876,6 @@ div > .product-container-layer1-left-child .size{
     display: inline;
     flex-basis:1%;
     border: 1px solid black;
-    
 }
 
 .seg2{
@@ -874,19 +895,18 @@ div > .product-container-layer1-left-child .size{
 .seg4{
     padding:1%;
     flex-basis:15%;
-    height:50px
+   
 }
 
 .seg5{
     padding:1%;
     flex-basis:19%;
-    height:50px
+    
 }
 
 .seg6{
     padding:1%;
     flex-basis:15%;
-    height:50px
 }
 
 .div-col-row-1{
@@ -1158,6 +1178,7 @@ p b{
     color:white;
     text-align:center;
     margin: 0 auto;
+    min-width: 95%;
     width:100%;
     padding:10px 10px;
     border-radius:4px;
