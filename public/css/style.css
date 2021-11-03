@@ -238,6 +238,8 @@ nav ul .bottom-header-child{
 
 .product-label{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top:2em;
     font-size:.6em;
     justify-content: center;
