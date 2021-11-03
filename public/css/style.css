@@ -335,7 +335,7 @@ nav ul .bottom-header-child{
 }
 
 .incr-val-decr-btn{
-    background: #F6F7F8;
+    
     border-radius: 2px;
     padding: 0 5px;
     
@@ -852,7 +852,7 @@ div > .product-container-layer1-left-child .size{
     padding:1%;
     text-align: center;
     display: inline;
-    flex-basis:5%;
+    flex-basis:1%;
     border: 1px solid black;
     
 }
@@ -860,7 +860,6 @@ div > .product-container-layer1-left-child .size{
 .seg2{
     padding:1%;
     flex-basis:10%;
-    
     border: 1px solid black;
     object-fit: cover center;    
 }
@@ -868,25 +867,25 @@ div > .product-container-layer1-left-child .size{
 
 .seg3{
     padding:1%;
-    flex-basis:20%;
+    flex-basis:40%;
     object-fit: cover center;
 }
 
 .seg4{
     padding:1%;
-    flex-basis:20%;
+    flex-basis:15%;
     height:50px
 }
 
 .seg5{
     padding:1%;
-    flex:1.1;
+    flex-basis:19%;
     height:50px
 }
 
 .seg6{
     padding:1%;
-    flex:.7;
+    flex-basis:15%;
     height:50px
 }
 
