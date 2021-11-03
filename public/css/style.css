@@ -305,15 +305,19 @@ nav ul .bottom-header-child{
 
 .product-container-layer1-left-child{
     flex:1;
-    padding-left: 5%;
+    margin-left: 5%;
+    padding:0%;
     border-bottom:1px solid #968e8e4f;
     justify-content: center;
+    
 }
 
 .product-container-layer2{
     flex:1;
     display: flex;
     flex-direction: column;
+    margin-left:5%;
+    
 }
 
 .product-container-layer2-1{
@@ -327,6 +331,7 @@ nav ul .bottom-header-child{
     display:flex;    
     flex-direction: column;
     cursor: pointer;
+    
     
     
 }
@@ -344,7 +349,7 @@ nav ul .bottom-header-child{
     background:#33a0ff62;
     border-radius: 2px;
     cursor: pointer;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 div>.incr-val-decr-btn span{
@@ -369,9 +374,9 @@ div>.incr-val-decr-btn span{
 }
 
 .mini-images{
-    width:24%;
-    margin-top: 1%;
-    margin-right: .8%;
+    width:23%;
+    margin-top: 3%;
+    margin-right: 3%;
     border:2px solid grey;
     cursor: pointer;
     height: 50%;
@@ -379,7 +384,7 @@ div>.incr-val-decr-btn span{
 
 
 .mini-images:last-child{
-    margin-top: 1%;
+    margin-top: 3%;
     margin-right: 0%;;
 }
 
