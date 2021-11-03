@@ -612,10 +612,10 @@ margin: 0 auto;
       justify-content: center;
    }
   
-  .top-searchDiv form input[type="text"]{
+  .top-searchDiv > form input[type="text"]{
       width: 512px;
   }
-  .top-searchDiv form input[type="submit"]{
+  .top-searchDiv > form input[type="submit"]{
     background: #ff5722;
   }
 
@@ -637,7 +637,23 @@ margin: 0 auto;
         padding:10px;
         margin:5px 0px;
       }
-    
+
+      .div-col-split-to-row4_1-child > form input[type="text"]{
+        width: 60%;
+        margin: 0 auto;
+        padding-left: 5%;
+        height: 40px;
+        border-radius: 2px 0px 0px 2px;
+    }
+
+    .div-col-split-to-row4_1-child > form input[type="submit"]{
+        width: 30%;
+        position:relative;
+        background: #2f8fe5;
+        height: 40px;
+        border-radius: 0px 2px 2px 0px;
+    }
+
   input[type="text"]{
     background:#fff;
     font-family: 'Proxima Nova Rg';
@@ -812,7 +828,7 @@ div > .product-container-layer1-left-child .size{
     margin: 5% auto;
     justify-content: center;
     width:60%;
-    border: 1px solid black;
+    
     font-size: .8em;
 }
 
@@ -835,15 +851,15 @@ div > .product-container-layer1-left-child .size{
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    border:1px solid black;
+    
 }
 
 .div-col-split-to-row4_1-child{
-    background:grey;
+   
     flex:1;
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+   
 }
 
 .div-col-split-to-row4_1-child:last-child{
@@ -863,7 +879,7 @@ div > .product-container-layer1-left-child .size{
 
 .flexdir-row>div>p{
     flex:1;
-    border: 1px solid black;
+   
 }
 
 .flexdir-row>div>p:nth-child(2){
@@ -875,13 +891,12 @@ div > .product-container-layer1-left-child .size{
     text-align: center;
     display: inline;
     flex-basis:1%;
-    border: 1px solid black;
+    
 }
 
 .seg2{
     padding:1%;
     flex-basis:10%;
-    border: 1px solid black;
     object-fit: cover center;    
 }
 
@@ -895,13 +910,11 @@ div > .product-container-layer1-left-child .size{
 .seg4{
     padding:1%;
     flex-basis:15%;
-   
 }
 
 .seg5{
     padding:1%;
     flex-basis:19%;
-    
 }
 
 .seg6{
@@ -912,7 +925,6 @@ div > .product-container-layer1-left-child .size{
 .div-col-row-1{
     padding:1%;
     flex:.7;
-    border: 1px solid black;
     background:rgba(168, 123, 38, 0.555);
 }
 
