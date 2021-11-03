@@ -317,6 +317,7 @@ nav ul .bottom-header-child{
 .product-container-layer2-1{
     flex:1;
     display:flex;
+    
    
 }
 
@@ -324,7 +325,7 @@ nav ul .bottom-header-child{
     display:flex;    
     flex-direction: column;
     cursor: pointer;
-    margin:5px;
+    
     
 }
 .product-container{
@@ -468,7 +469,7 @@ padding: 2%;
 
 .imageCoverCenter{
   
-    border:1px solid grey;
+    border:2px solid #efefef;
     object-fit: cover;
     object-position: center;
 }
