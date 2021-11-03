@@ -852,16 +852,16 @@ div > .product-container-layer1-left-child .size{
     padding:1%;
     text-align: center;
     display: inline;
-    
-    
     flex-basis:5%;
-      
+    border: 1px solid black;
     
 }
 
 .seg2{
     padding:1%;
-    flex-basis:15%;
+    flex-basis:10%;
+    
+    border: 1px solid black;
     object-fit: cover center;    
 }
 
