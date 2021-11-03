@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="del" transform="translate(-1454 -74)">
+    <circle id="base" cx="11" cy="11" r="11" transform="translate(1454 74)" fill="#ff6875" opacity="0.05"/>
+    <g id="x" transform="translate(1 1)">
+      <rect id="Rectangle_21" data-name="Rectangle 21" width="1" height="11" transform="translate(1467.778 80) rotate(45)" fill="#ff4252"/>
+      <rect id="Rectangle_22" data-name="Rectangle 22" width="1" height="11" transform="translate(1468.485 87.778) rotate(135)" fill="#ff4252"/>
+    </g>
+  </g>
+</svg>
