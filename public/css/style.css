@@ -850,46 +850,43 @@ div > .product-container-layer1-left-child .size{
 
 .seg1{
     padding:1%;
-    flex:.2;
-    background: red;
-    height:50px;
+    text-align: center;
+    display: inline;
+    flex-basis:5%;
+    border: 1px solid black;
+    
 }
 
 .seg2{
     padding:1%;
-    flex:1;
-    background: rgb(43, 255, 0);
-    height:50px;
-    border:1px solid black;
+    flex-basis:10%;
     
+    border: 1px solid black;
+    object-fit: cover center;    
 }
 
 
 .seg3{
     padding:1%;
-    flex:2.5;
-    background: rgb(0, 30, 255);
-    height:50px
+    flex-basis:20%;
+    object-fit: cover center;
 }
 
 .seg4{
     padding:1%;
-    flex:.6;
-    background: rgb(204, 0, 255);
+    flex-basis:20%;
     height:50px
 }
 
 .seg5{
     padding:1%;
     flex:1.1;
-    background: rgb(255, 217, 0);
     height:50px
 }
 
 .seg6{
     padding:1%;
     flex:.7;
-    background: red;
     height:50px
 }
 
