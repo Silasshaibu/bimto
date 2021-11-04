@@ -973,7 +973,6 @@ div > .product-container-layer1-left-child .size{
 .about-us p a{
     color:#2f8fe5;
     font-weight: 800;
-    
     text-decoration:underline;
 }
 
@@ -986,7 +985,7 @@ p b{
     
     font-size:.8rem;
     position: initial;
-    border:2px solid brown;
+  
     border-radius:2px;
 }
 .pinfoform label{
@@ -1005,11 +1004,8 @@ p b{
 }
 
 .sm{
-    border: 1px solid blue;
     padding: 20px;
-
     border-radius: 2px;
-
     border-radius:5px 5px;
 }
 .col{
@@ -1027,7 +1023,7 @@ p b{
     width: 512px;
     padding: 20px;
     color: white;
-    background-color: blue;
+    
     border-radius:5px 5px;
 }
 #h input[type="text"]{
@@ -1052,13 +1048,13 @@ p b{
     color: white;
     font-size: 5px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 2px 2px 0;
     user-select: none;
   }
   /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+    background: #efefef65;
   }
  
   /* Fading animation */
@@ -1108,7 +1104,7 @@ p b{
 .prev{
     left: 0;
     margin: 7% 0% 0% 20%;
-    border: 1px solid black;
+    
     padding: 0;
     display: block;
     position:absolute;
@@ -1120,7 +1116,7 @@ p b{
     margin: 7% 20% 0 0%;
     position: absolute;    
     padding: 0;
-    border: 1px solid black;
+    
   }
 
 
