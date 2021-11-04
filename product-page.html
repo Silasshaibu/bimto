@@ -3,10 +3,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Bimto</title>
    <link rel="stylesheet" href="./public/css/style.css" >
-   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
-     
+   <script src="https://kit.fontawesome.com/26d4a64054.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
     <body>
@@ -20,6 +19,7 @@
         </div>
         <div style="flex-basis: 6%">
            
+           
         </div>
         <div style="flex-basis: 42%; ">
         </div>
@@ -30,14 +30,14 @@
                         <img style="margin-right:5px;" src="./assets/web-elements/profile_close_2.svg">
                         <a href="#"> My profile</b></a> 
                         <img style="margin-right:5px; margin-left: 10px;" src="./assets/web-elements/bag_3.svg">
-                        <a href="#">0 Items $0.00</b></a> 
+                        <a href="#">0 Items £0.00</b></a> 
                         <img style="margin-left: 10px;" src="./assets/web-elements/search-icon.svg">
                     </li>
                 </ul>
             </nav>
         </div>
         <div style="flex-basis: 12%; ">
-          
+         
         </div>
 
     </div>
@@ -46,32 +46,48 @@
             <img style="margin: 20px auto;" src="./assets/images/bimto-logo-web.png" alt="bimto-logo" width="180px" />
         </div>
 
-        
-        <nav>
-            <ul >
-                <li class="bottom-header-child">
-                    <a class="active" href="./index.html">HOME</a>
-                </li>
-                <li class="bottom-header-child">
-                      <a href="./about.html"> ABOUT US</a>
-                </li>
-                <li class="bottom-header-child">
-                    <a href="#">GADGET</a>
-                </li>
-                <li class="bottom-header-child">
-                   <a href="#">  AROUND THE HOME</a>
-                </li>
-                <li class="bottom-header-child">
-                    <a href="#"> LIFE HACKS</a>
-                </li>
-                <li class="bottom-header-child">
-                  <a href="#">BACK TO SCHOOL</a>
-                </li>
-            </ul>
-         </nav>
-         
-    </section>
+        <style>
+            a{
+                text-decoration: none;
+                color: black;
+            }
 
+            .bottom-header-child a{font-size: .8em;
+
+            }
+
+            nav ul .bottom-header-child{
+                display: flex;
+            }
+         </style>
+
+        
+
+         
+
+<nav>
+    <ul >
+        <li class="bottom-header-child">
+            <a class="active" href="#">HOME</a>
+        </li>
+        <li class="bottom-header-child">
+              <a href="./about.html"> ABOUT US</a>
+        </li>
+        <li class="bottom-header-child">
+            <a href="#">GADGET</a>
+        </li>
+        <li class="bottom-header-child">
+           <a href="#">  AROUND THE HOME</a>
+        </li>
+        <li class="bottom-header-child">
+            <a href="#"> LIFE HACKS</a>
+        </li>
+        <li class="bottom-header-child">
+          <a href="#">BACK TO SCHOOL</a>
+        </li>
+    </ul>
+ </nav>
+         
 
     
     <section class="product-container">
@@ -146,7 +162,7 @@
                         <button id="plus">+</button></p>                    
                 </div>
                 <div class="add-to-cart-btn">
-                    <p><img src="./assets/web-elements/cart_2.svg" alt="add-to-cart-icon">Add to Cart</</p>                    
+                    <p><a href="./cart.html"><img src="./assets/web-elements/cart_2.svg" alt="add-to-cart-icon">Add to Cart</a></p>                    
                 </div>
                 <div class="love-box-btn"><p><img id="love" src="./assets/web-elements/hearts.svg" alt="love-icon"></p>
                 </div>

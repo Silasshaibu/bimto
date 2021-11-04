@@ -364,6 +364,13 @@ div>.incr-val-decr-btn span{
     margin-left: 17%;
     cursor: pointer;
     border-radius: 2px;
+   
+    
+}
+
+.add-to-cart-btn > p a{
+    text-decoration: none;
+    color:rgb(36, 127, 219);
 }
 
 
