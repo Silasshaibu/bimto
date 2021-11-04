@@ -806,14 +806,7 @@ div > .product-container-layer1-left-child .size{
         object-fit: cover;    
     }
 
-
-
-   
-
-
-   
 }
-
 
 
 .header-wrapper ul{
@@ -854,7 +847,6 @@ div > .product-container-layer1-left-child .size{
     flex:1;
     display: flex;
     align-items: baseline;
-    border: 1px solid yellow;
     margin: 0
 }
 
@@ -943,7 +935,7 @@ div > .product-container-layer1-left-child .size{
 .div-col-row-1{
     padding:1%;
     flex:.7;
-    background:rgba(168, 123, 38, 0.555);
+ 
 }
 
 .div-col-row-1 p{
@@ -988,9 +980,7 @@ p b{
   
     border-radius:2px;
 }
-.pinfoform label{
-    border: 1px solid red;
-}
+
 .row{
     flex:1;
     display: flex;
@@ -1011,7 +1001,6 @@ p b{
 .col{
     flex:1;
     display: flex;
-    border: 1px solid orangered;
     justify-content: space-between;
 }
 .col input[type="text"]{
@@ -1023,7 +1012,6 @@ p b{
     width: 512px;
     padding: 20px;
     color: white;
-    
     border-radius:5px 5px;
 }
 #h input[type="text"]{
