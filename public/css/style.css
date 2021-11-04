@@ -882,7 +882,6 @@ div > .product-container-layer1-left-child .size{
 .flexdir-row > div{
     flex:1;
     display: flex;
-    background:pink;
     justify-content: space-between;
 }
 
