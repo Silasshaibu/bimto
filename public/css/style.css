@@ -475,28 +475,33 @@ padding: 2%;
 }
 
 .imageCoverCenter{
-  
     border:2px solid #efefef;
     object-fit: cover;
     object-position: center;
 }
-.Advert-with-IMage0 h1{
+.Advert-with-Image0 h1{
     font-size:2rem;
     font-weight: 400;
 }
-    
+
 
 .section4{
-    background:#2f8fe5;
+    background:#2f8fe5;  
+  
     margin: 0 auto;
     padding: 5%;
     padding-left: 20%;
     display:flex;
-    justify-content: center;
+    
+    
     color:white;
+   
 }
 
+
+
 .Advert-with-Image0{    
+    
     flex-basis:22%;
     display: flex;   
     justify-content: center;
@@ -513,8 +518,15 @@ padding: 2%;
     font-size:.9em;
 }
 .Advert-with-Image1{  
-    flex-basis:70%; 
+    margin-left:20%;
+    height: 300px;
+    border-radius: 145px;
+    background:url(../../assets/images/3dprint-istock.jpg);
+    flex-basis:40%; 
+    border:1px;
 }
+
+
 .Advert-with-Image0 h3{
 font-size: 66pt;
 }
@@ -762,11 +774,7 @@ div > .product-container-layer1-left-child .size{
 @media screen and (min-width:1024px){
 
    
-    .section4{
-        max-height:55.3vh;
-        padding-left: 19.2vw 14.81vh;
-
-    }
+    
 
     .section3{
         padding-left: 2%;
@@ -798,12 +806,6 @@ div > .product-container-layer1-left-child .size{
         object-fit: cover;    
     }
 
-    .section4{
-        max-height:55.3vh;
-        padding-left: 3vw;
-        padding-right:3vw;
-
-    }
 
 
    
