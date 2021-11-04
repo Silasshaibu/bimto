@@ -103,32 +103,32 @@
           <div class="seg5"><p>QTY</p></div>
           <div class="seg6"><p>UNIT PRICE</p></div>
       </div>
-      <div class="div-col-split-to-row4">
-        <div class="seg1"><img style="cursor: pointer;" src="./assets/web-elements/del.svg"></div>
+      <div class="div-col-split-to-row4" id = "seg1">
+        <div class="seg1" ><img onclick="remove()" style="cursor: pointer;" src="./assets/web-elements/del.svg"></div>
         <div class="seg2"><img src="./assets/images/Santa_1.jpg" width="80px" height="" alt="cart-img-place-holder"/>
           </div><div class="seg3"><p>3D_Printed_Model #14093</p></div>
-          <div class="seg4"><p>$24</p></div>
+          <div class="seg4"><p id="tot">$8</p></div>
           <div class="seg5"> 
              <div class="incr-val-decr-btn">
-                <p><button id="minus">-</button> 
-                <span id="numberPlace">1</span>
-                <button id="plus">+</button> 
+                <p><button onclick="minusBtn1();" id="minus1">-</button> 
+                <span id="numberPlace1">1</span>
+                <button id="plus1" onclick="plusBtn1();">+</button> 
                 
                 </p>                    
             </div>
           </div>
-          <div class="seg6"><p>$8</p></div>
+          <div class="seg6" ><p>$8</p></div>
       </div>
-      <div class="div-col-split-to-row4">
-        <div class="seg1"><img style="cursor: pointer;" src="./assets/web-elements/del.svg"></div>
+      <div class="div-col-split-to-row4" id = "seg2" >
+        <div class="seg1"><img onclick= "remove2()"style="cursor: pointer;" src="./assets/web-elements/del.svg"></div>
           <div class="seg2"><img src="./assets/images/Santa_2.jpg" width="80px" height="" alt="cart-img-place-holder"/>
           </div><div class="seg3"><p>3D_Printed_Model #167093</p></div>
-          <div class="seg4"><p>$7</p></div>
+          <div class="seg4" id="tot1"><p>$7</p></div>
           <div class="seg5">
             <div class="incr-val-decr-btn">
-                <p><button id="minus">-</button> 
+                <p><button onclick="minusBtn()" id="minus">-</button> 
                     <span id="numberPlace">1</span>
-                    <button id="plus">+</button>
+                    <button onclick="plusBtn()"id="plus">+</button>
                 </p>                    
             </div>
           </div>
@@ -147,7 +147,7 @@
             <div class="flexdir-row">
                 <div>
                     <p>Subtotal</p>
-                    <p>$31</p>
+                    <p id="subt">$15</p>
                 </div>
                 <div>
                     <p>Shipping fee</p>
@@ -159,7 +159,7 @@
                 </div>
                 <div style="border-top: 1px solid #efefef">
                     <h2>TOTAL</h2>
-                    <h2>$32</h2>                    
+                    <h2>$16</h2>                    
                 </div>
                 <div>
                     <btn class="button">Check out</btn>
@@ -265,3 +265,4 @@
   </body>
       
 </html>
+<script src="./public/js/cart.js"></script>
