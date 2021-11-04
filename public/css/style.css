@@ -301,7 +301,11 @@ nav ul .bottom-header-child{
     transition: transform .4s;  
     }
   .contan1:hover{
-      transform: scale(.95);
+      transform: scale(.9);
+      cursor: pointer;
+    }
+    .topProduct> div>h3{
+        cursor: pointer;
     }
 
 .product-container-layer1-left{
