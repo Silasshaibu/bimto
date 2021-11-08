@@ -662,11 +662,11 @@ margin: 0 auto;
       width: 512px;
   }
   .top-searchDiv > form input[type="submit"]{
-    background: #ff5722;
+    background:  #2f8fe5;
   }
 
   .top-searchDiv input[type="submit"]:hover{
-    background: #2f8fe5;
+    background: #ff5722;
   }
   input{
     position:relative;
