@@ -597,8 +597,19 @@ margin: 0 auto;
 }
 .footer-bottom-child{
     flex:1;
-    margin-right: 5%;
-    height: 110px;   
+   }
+
+.footer-bottom-child:nth-child(1){
+    display: flex;
+    flex:.5;
+}
+.footer-bottom-child:nth-child(1)>div{
+    flex:1;
+    
+    
+}
+.footer-bottom-child:nth-child(1)>div:nth-child(2)
+{margin-left:-20%;
 }
 
 
