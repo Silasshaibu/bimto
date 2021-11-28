@@ -535,14 +535,30 @@ padding: 2%;
 .footer-bottom h3{
     font-size:.9em;
 }
+
+.Advert-with-Image1::before{  
+    content:' ';
+    width:80%;
+    height: 800px;
+    position: absolute;    
+    background:url(../../assets/images/horse.png);
+    flex-basis:40%; 
+      
+    background-repeat: no-repeat;
+    transform: translate(0%, -48%) scale(.72);
+    
+}
+
 .Advert-with-Image1{  
     margin-left:20%;
-    height: 300px;
-    border-radius: 145px;
-    background:url(../../assets/images/3dprint-istock.jpg);
-    flex-basis:40%; 
+    height: 200px;
+    border-radius: 300px;
+   
+    flex-basis:40%;    
     border:1px;
-}
+    z-index:1;}
+    
+    
 
 
 .Advert-with-Image0 h3{
@@ -605,8 +621,6 @@ margin: 0 auto;
 }
 .footer-bottom-child:nth-child(1)>div{
     flex:1;
-    
-    
 }
 .footer-bottom-child:nth-child(1)>div:nth-child(2)
 {margin-left:-20%;
